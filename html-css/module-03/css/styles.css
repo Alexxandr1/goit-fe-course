@@ -4,5 +4,77 @@
     margin: 0;
 }
 body {
-    background-image: url(imj/page.png);
+    
+    background-image: url(../img/page.png);
+    background-repeat: no-repeat;  
+}   
+img {
+    width: 400px;
 }
+
+.wrapper {
+    
+    width: 480px;
+    padding: 60px 40px; 
+    margin: 240px auto;
+    background-color: #ffffff;
+}
+h2, h3 {
+ color: #263555;
+ margin-top: 30px;
+ margin-bottom: 20px
+
+}
+
+.paragraph {
+  font-family: Pathway Gothic One;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 20px
+}
+
+.second-paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    margin: 20px 0 20px;    
+}
+
+.text {
+    padding-right: 120px;
+}
+
+.gap {
+    height: 55px;
+}
+span {
+    border: 1px;
+    color: #dedbdb;
+    height: 1px;
+}
+
+  .right{
+    
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+  }
+
+  .left {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+  }
+  
+  .display-blok{
+    color: #263555;
+    font-size: 15px;
+  }
+
