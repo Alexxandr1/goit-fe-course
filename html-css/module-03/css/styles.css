@@ -70,18 +70,23 @@ p {
   .right{
     
     display: inline-block;
-    width: 50%;
+    width: 45%;
     margin-right: -4px;
+    margin-left: 20px;
+    
+   
   }
 
   .left {
     display: inline-block;
-    width: 50%;
+    width: 47%;
     vertical-align: top;
+    
   }
   
   .display-blok{
     color: #263555;
     font-size: 15px;
+   
   }
 
