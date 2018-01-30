@@ -102,7 +102,7 @@ li {
     
     color: #263555;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 18px;
     
     
 }
@@ -114,6 +114,7 @@ li {
 .list-left {
     display: inline-block;
     width: 300px;
+    line-height: 30px;
 }
 
 .list-left::before {
@@ -144,7 +145,7 @@ li {
 
 .right-max {
     padding-bottom: 10px;
-    margin-left: 16px;
+    margin-left: 35px;
 }
 
 .list-right {
@@ -172,6 +173,7 @@ li {
     color: #fff;
     border-radius: 50%;
     position: absolute;
+    margin-top: 6px;
     
 }
     
@@ -180,7 +182,7 @@ li {
 
 /*--правый нижний элемент--*/
 .right-test {
-    margin-top: 100px;
+    margin-top: 118px;
     margin-bottom: 20px;
 }
 
