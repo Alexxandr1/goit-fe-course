@@ -99,14 +99,21 @@ p {
 
 
 li {
+    
     color: #263555;
     font-size: 14px;
-    line-height: 26px;
+    line-height: 20px;
+    
+    
 }
 
 .list {
-    list-style-type: none;
-    column-count: 2;
+    list-style-type: none;    
+}
+
+.list-left {
+    display: inline-block;
+    width: 300px;
 }
 
 .list-left::before {
@@ -123,6 +130,7 @@ li {
     vertical-align: top;
     padding: 120px 0 0 0;
     
+    
 }
 
 .right {
@@ -130,7 +138,7 @@ li {
     
 }
 .content-right {
-  
+   margin-left: 35px;
    margin-bottom: 10px;
 }
 
@@ -139,8 +147,21 @@ li {
     margin-left: 16px;
 }
 
-.one:before {
-    content: "1";
+.list-right {
+    
+    counter-reset: list-item;
+}
+
+
+
+.list-item {
+    
+    list-style-type: none;
+    counter-increment: list-item;
+}
+
+.list-item:before {
+    content: counter(list-item);
     text-align: center;
     display: inline-block;
     line-height: 30px;
@@ -149,41 +170,17 @@ li {
     font-size: 13px;
     background-color: #38afe5;
     color: #fff;
-    border-radius: 50px;
-    margin-right: 10px;
+    border-radius: 50%;
+    position: absolute;
     
 }
+    
 
-.two::before {
-    content: "2";
-    text-align: center;
-    display: inline-block;
-    line-height: 30px;
-    width: 28px;
-    height: 28px;
-    font-size: 13px;
-    background-color: #38afe5;
-    color: #fff;
-    border-radius: 50px;
-    margin-right: 10px;
-}
 
-.three::before {
-    content: "3";
-    text-align: center;
-    display: inline-block;
-    line-height: 30px;
-    width: 28px;
-    height: 28px;
-    font-size: 13px;
-    background-color: #38afe5;
-    color: #fff;
-    border-radius: 50px;
-    margin-right: 10px;
-}
 
+/*--правый нижний элемент--*/
 .right-test {
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
@@ -197,6 +194,7 @@ li {
     padding: 15px; 
     padding-left: 15px;
 }
+
 
 .testimonial:before {
     content: '“';
