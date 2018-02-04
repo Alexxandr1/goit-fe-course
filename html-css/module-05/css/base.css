@@ -1,0 +1,25 @@
+
+body {
+    background-image: url(../img/page.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wraper {
+    margin: auto;
+    margin-top: 46px;
+    font-family: Pathway Gothic One;
+}
+
+.clearfix::after{
+    display: block;
+    content: '';
+    clear: both;
+}

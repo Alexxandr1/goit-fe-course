@@ -1,0 +1,55 @@
+.figure {
+    width: 1026px;
+    background-color: #fff;
+    margin: auto;
+   
+}
+ 
+.figcaption {
+    position: relative;
+
+}
+.img {
+    margin: 58px 60px;
+    height: 580px;
+    width: 902px;
+
+}
+
+.blue {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #263555;
+    background-color: #fff;
+    padding: 20px 20px;
+    position: absolute;
+    transform: translateX(26%) translateY(-580%);
+}
+
+.white{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 34px;
+    color:#fff;
+    padding: 16px 16px;
+    background-color: #38afe5;
+    position: absolute;
+    transform: translateX(21%) translateY(-450%);
+}
+
+
+.white::before {
+    content: '← →';
+    line-height: 86px;
+    font-size: 20px;
+    width: 90px;
+    height: 90px;
+    background-color: #38afe5;
+    position: absolute;
+    border-radius: 50%;
+    top: 140px;
+    left: 40px;
+    text-align: center;    
+}
+
+
