@@ -16,6 +16,7 @@ body {
     margin: auto;
     margin-top: 46px;
     font-family: Pathway Gothic One;
+    
 }
 
 .clearfix::after{
@@ -23,3 +24,4 @@ body {
     content: '';
     clear: both;
 }
+
