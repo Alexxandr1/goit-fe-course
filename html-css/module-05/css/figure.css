@@ -23,7 +23,7 @@
     background-color: #fff;
     padding: 20px 20px;
     position: absolute;
-    transform: translateX(26%) translateY(-580%);
+    transform: translateX(26%) translateY(-680%);
 }
 
 .white{
@@ -34,22 +34,38 @@
     padding: 16px 16px;
     background-color: #38afe5;
     position: absolute;
-    transform: translateX(21%) translateY(-450%);
+    transform: translateX(21%) translateY(-550%);
 }
 
 
-.white::before {
-    content: '← →';
+.text-color::before {   
+    content: '\2190';
     line-height: 86px;
-    font-size: 20px;
-    width: 90px;
+    font-size: 30px;
+    color: #fff;
+    width: 45px;
     height: 90px;
     background-color: #38afe5;
     position: absolute;
-    border-radius: 50%;
-    top: 140px;
-    left: 40px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    bottom: 100px;
+    left: 100px;
     text-align: center;    
 }
 
-
+.text-color::after {   
+    content: '\2192';
+    line-height: 86px;
+    font-size: 30px;
+    color: #fff;
+    width: 45px;
+    height: 90px;
+    background-color: #38afe5;
+    position: absolute;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    bottom: 100px;
+    left: 145px;
+    text-align: center;    
+}

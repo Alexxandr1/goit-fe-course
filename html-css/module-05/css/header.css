@@ -22,6 +22,7 @@
 
 .menu-item:hover > .submenu {
     display: block;
+    
 }
     
 
@@ -43,19 +44,19 @@
 
 .submenu {
   display: none; 
-  margin-top: 10px;
   position: absolute;
   left: 90px;
   background-color: #fff;
   border-radius: 3px;
-  
+  transition: 10s;
 }
 
 .submenu-item {
     
     text-align: center; 
     list-style-type: none;
-    width: 70px;    
+    width: 70px; 
+      
 }
 
 
@@ -64,7 +65,7 @@
     /* display: inline-block; */    
     content: '';       
     position: absolute;
-    bottom: 98px;
+    bottom: 94px;
     right: 28px;
     width: 0;
     height: 0;
