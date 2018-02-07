@@ -38,10 +38,10 @@
 }
 
 
-.text-color::before {   
+.button-left::before {   
     content: '\2190';
     line-height: 86px;
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
     width: 45px;
     height: 90px;
@@ -51,13 +51,14 @@
     border-bottom-left-radius: 45px;
     bottom: 100px;
     left: 100px;
-    text-align: center;    
+    text-align: center;  
+    cursor: pointer;  
 }
 
-.text-color::after {   
+.button-right::after {   
     content: '\2192';
     line-height: 86px;
-    font-size: 30px;
+    font-size: 20px;
     color: #fff;
     width: 45px;
     height: 90px;
@@ -67,5 +68,6 @@
     border-bottom-right-radius: 45px;
     bottom: 100px;
     left: 145px;
-    text-align: center;    
+    text-align: center;   
+    cursor: pointer; 
 }
