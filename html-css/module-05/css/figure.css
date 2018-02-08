@@ -18,12 +18,13 @@
 
 .blue {
     font-size: 22px;
+    font-weight: normal;
     text-transform: uppercase;
     color: #263555;
     background-color: #fff;
     padding: 20px 20px;
     position: absolute;
-    transform: translateX(26%) translateY(-680%);
+    transform: translateX(26%) translateY(-690%);
 }
 
 .white{
@@ -37,37 +38,40 @@
     transform: translateX(21%) translateY(-550%);
 }
 
-
-.button-left::before {   
-    content: '\2190';
-    line-height: 86px;
-    font-size: 20px;
-    color: #fff;
-    width: 45px;
-    height: 90px;
-    background-color: #38afe5;
+.buttom {
     position: absolute;
-    border-top-left-radius: 45px;
-    border-bottom-left-radius: 45px;
+    
     bottom: 100px;
     left: 100px;
-    text-align: center;  
-    cursor: pointer;  
 }
 
-.button-right::after {   
-    content: '\2192';
+
+.button-left {   
     line-height: 86px;
     font-size: 20px;
     color: #fff;
     width: 45px;
     height: 90px;
     background-color: #38afe5;
-    position: absolute;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    text-align: center;  
+    cursor: pointer;  
+    border: none;
+
+}
+
+.button-right {   
+    line-height: 86px;
+    font-size: 20px;
+    color: #fff;
+    margin-left: -4px;
+    width: 45px;
+    height: 90px;
+    background-color: #38afe5;
     border-top-right-radius: 45px;
     border-bottom-right-radius: 45px;
-    bottom: 100px;
-    left: 145px;
     text-align: center;   
     cursor: pointer; 
+    border: none;
 }
