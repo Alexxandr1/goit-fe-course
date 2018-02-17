@@ -117,10 +117,8 @@
 
 .img-content{
     margin-right: 22px;
-    width: 30px;
-    height: 30px;
     position: relative;
-    top:20px;
+    top:36px;
 }
 
 h3 {
@@ -199,11 +197,13 @@ p {
 
 }
 
-.name {
-    position: absolute;
+.footer {
+    display: flex;
     text-align: center;
-    bottom: -90px;
-    left: 120px;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 
 }
 
@@ -213,6 +213,5 @@ p {
     width: 380px;
     height: 470px; 
     background: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, 
-    rgba(243, 129, 129, 0.9) 100%);
-    
+    rgba(243, 129, 129, 0.9) 100%);   
 }
