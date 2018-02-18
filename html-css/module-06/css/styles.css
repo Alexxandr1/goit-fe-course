@@ -67,7 +67,7 @@
     display: flex;
     flex-direction: column;
     align-items: center; 
-    padding-bottom: 44px;
+    margin-bottom: 70px;
 }   
 
 .text-figure{
@@ -83,7 +83,6 @@
     font-weight: bold;
     font-family: 'Montserrat Bold', arial;
     color: #333;
-    margin-bottom: 98px;
 }
 
 .text-normal::before {
@@ -102,16 +101,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 100px;
 
 }
 
 .content {
     display: flex;
-    width: 33%;
-    align-items: baseline;
-    padding-right: 68px;
-    padding-bottom: 100px;
-    
+    width: 30%;
+    align-items: baseline;  
 }
 
 
@@ -131,7 +128,7 @@ h3 {
 
 p {
     color: #b6b6b6;
-    font-family: 'Roboto' sans-serif ;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 26px;
 }
@@ -139,24 +136,24 @@ p {
 .figure-text {
     text-align: center;
     width: 942px;
+    margin-top: 98px;
 }
 /* figure */
 
 .figure {
-        display: flex;
+        display: flex; 
         justify-content: space-between;
-    }
+        flex-wrap: wrap;
+}
 
 .figcaption {
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     position: relative;
+    
+    
 }
 
-.photo {
-    width: 380px;
-    height: 470px;
-}
 
 .figure-content {
     display: flex;
@@ -169,49 +166,44 @@ p {
 }
 
 .social {
-    widows: 56px;
+    width: 56px;
     height: 56px;
     background-color: #fce38a;
     margin-right: 2px;
     z-index: 1; 
 }
 
-
-
 .figcaption:hover > .figure-content{
  display: flex;
 }
 
-.figcaption:hover {
-    transform: translate(-10px, -10px);
-    box-shadow: 10px 10px rgba(149, 255, 211, 1);
-     
 
+
+.figcaption:hover {   
+    transform: translate(-10px, -10px );
+    transition-duration: 0.5s; 
+    box-shadow: 10px 10px #95e1d3; 
 }
-
-
 
 .photo-link:hover > .social {
     background-color: #95e1d3;
-      
-
-}
-
-.footer {
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-
 }
 
 .figcaption:hover::after {
     content: '';
     position: absolute;
     width: 380px;
-    height: 470px; 
+    height: 471px; 
     background: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, 
     rgba(243, 129, 129, 0.9) 100%);   
 }
+
+.name {
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
