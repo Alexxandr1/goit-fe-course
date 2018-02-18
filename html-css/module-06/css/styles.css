@@ -176,14 +176,14 @@ p {
 .figcaption:hover > .figure-content{
  display: flex;
 }
-
-
-
-.figcaption:hover {   
+.figcaption:hover {
     transform: translate(-10px, -10px );
     transition-duration: 0.5s; 
-    box-shadow: 10px 10px #95e1d3; 
-}
+    box-shadow: 10px 10px #95e1d3;
+} 
+
+
+
 
 .photo-link:hover > .social {
     background-color: #95e1d3;
