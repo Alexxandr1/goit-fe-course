@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts/montserrat-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+         url('../fonts/roboto-v18-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v18-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-regular - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('../fonts/roboto-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+.wrapper {
+    background-image: url(../img/Vector.png);
+    background-repeat: no-repeat;
+    background-position: center top; 
+    min-width: 20rem;
+    margin: auto;
+    
+}
+
+.container {
+    max-width: 20rem;
+    margin: auto;
+}
+
+.menu {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+}
+
+.menu-item{
+    flex-basis: 25%;
+    text-align: center;
+    font-size: 0.875rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    list-style-type: none;
+    margin-bottom: 150px;  
+    margin-top: 34px;
+}
+
+.logo { 
+    list-style-type: none; 
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.25rem;
+    flex-basis: 50%
+}
+
+.menu-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.4rem 1rem;    
+}
+
+.menu-link:hover {
+    border: 2px solid #fff;
+    border-radius: 50px 50px 50px 50px; 
+        
+}
+
+.logo-link {
+    color: #fff;
+    text-decoration: none;
+}
+ .nav{
+     margin-bottom: 40px; 
+ }
+
+.main {
+    text-align: center;
+    max-width: 18.5rem;
+    
+    
+}
+
+.article {
+    margin-bottom: 21px;
+}
+.team {
+    margin-bottom: 22px;
+}
+
+.team-caption {
+    margin-bottom: 22px;
+}
+
+.team-text {
+   color: #989898;
+   font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+figure {
+    margin-bottom: 30px;
+}
+
+.caption-text {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.section {
+    margin: auto;
+    max-width: 75%;
+}
+
+.section-text {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    
+    
+}
+
+.caption {
+    margin-bottom: 36px; 
+}
+
+.button {
+    margin-bottom: 240px;
+}
+
+
+
+.button-red {
+    width: 17.5rem ;
+    height: 2.5rem;
+    background-color: #ff4e50;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 50px 50px 50px 50px; 
+
+}
+
+.button-last {
+    width: 17.5rem ;
+    height: 2.5rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    border: 3px solid #ff4e50;
+    color: #ff4e50;
+    background-color: #fff; 
+    font-size: 14px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+@media (min-width: 768px ) {
+    .container {
+        max-width: 768px;
+    }
+    .figure-team  {
+        display: flex;
+        justify-content: space-between;
+        flex-basis: 50%;
+        flex-wrap: wrap;
+        
+    }
+
+    .figure {
+        max-width: 50%;
+        margin-bottom: 60px;
+        
+    }
+
+    .order {
+        order: 1
+    }
+
+    .logo {
+        order: -1;
+        margin-top: 47px;
+    }
+
+    .menu-item {
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-bottom: 0;
+    }
+
+    .nav {
+        margin-bottom: 130px;
+
+    }
+
+    
+
+    .main {
+        max-width: 492px;
+    }
+
+    .caption-text {
+        font-size: 50px;
+    }
+
+    .menu-item{
+        flex-basis: auto;
+    }
+
+    .button {
+             margin-bottom: 300px;
+    }
+    
+
+}
+
+@media (min-width: 940px) {
+    .container {
+        max-width: 940px;
+    }
+
+    .container-desktop {
+        max-width: 500px;
+        margin: auto;
+    }
+
+    .section {
+        margin-bottom: 40px;
+    }
+
+    .figure-team {
+        flex-wrap: nowrap;  
+        flex-basis: 25%;
+    }
+    .figure {
+        max-width: 220px;
+    }
+
+    .menu {
+        justify-content: space-around;
+    }
+}
+
+
+

@@ -216,13 +216,13 @@
  }
 
   .value:valid {
-      outline: #058432;
+      border-color: #058432;
 
 
   }
 
   .value:invalid {
-    outline: #c90e29;
+    border-color: #c90e29;
   }
 
   .button {
@@ -239,5 +239,6 @@
       border-radius: 3px;
       font-size: 18px;
       font-family: 'Montserrat', sans-serif;
+      border: none;
 
   }
